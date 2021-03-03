@@ -19,7 +19,7 @@ Gem::Specification.new do |spec|
 
   spec.required_ruby_version = "~> 3.0.0"
 
-  spec.add_runtime_dependency "sidekiq", "~> 5.0"
+  spec.add_runtime_dependency "sidekiq", "~> 6.0"
   spec.add_runtime_dependency "aws-sdk-cloudwatch", "~> 1.6"
 
   spec.add_development_dependency "bundler", "~> 1.16"
